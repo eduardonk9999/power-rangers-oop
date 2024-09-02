@@ -15,7 +15,22 @@ public class Main {
         rangerVerde.lutar();
         rangerVerde.chamarZord();
 
+        // Criando os Zords
+        Zord tRexZord = new TRexZord();
+        Zord triceratopsZord = new TriceratopsZord();
+        Zord sabertoothTigerZord = new SabertoothTigerZord();
+        Zord mastodonZord = new MastodonZord();
+        Zord pterodactylZord = new PterodactylZord();
 
+        MegaZord megaZord = new MegaZord();
+        megaZord.adicionarZord(tRexZord);
+        megaZord.adicionarZord(triceratopsZord);
+        megaZord.adicionarZord(sabertoothTigerZord);
+        megaZord.adicionarZord(mastodonZord);
+        megaZord.adicionarZord(pterodactylZord);
+
+
+        megaZord.formaMegazord();
 
     }
 }

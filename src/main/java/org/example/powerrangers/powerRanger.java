@@ -5,6 +5,18 @@ public class powerRanger {
     private String nome;
     private String arma;
 
+
+    //construtor....
+    public powerRanger(String cor, String nome, String arma) {
+        this.cor = cor;
+        this.nome = nome;
+        this.arma = arma;
+    }
+
+    public void lutar() {
+        System.out.println(nome + " (" + cor + ") está lutando com sua " + arma);
+    }
+
     public String getCor() {
         return cor;
     }

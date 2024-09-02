@@ -5,8 +5,17 @@ public class Main {
         powerRanger rangerVermelho = new rangerVermelho("Jason");
 
         rangerVermelho.setArma("Sabre de LUZ");
-        rangerVermelho.setCor("vermelho");
         rangerVermelho.lutar();
+        rangerVermelho.chamarZord();
+
+
+
+
+        powerRanger rangerVerde = new rangerVerde("Tommy");
+        rangerVerde.lutar();
+        rangerVerde.chamarZord();
+
+
 
     }
 }

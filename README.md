@@ -1,4 +1,4 @@
-# Projeto Power Rangers com Zords 🦸‍♀️
+# Projeto Power Rangers com Zords 
 
 Este projeto implementa uma simulação básica de Power Rangers e seus Zords em Java, demonstrando vários conceitos de **Programação Orientada a Objetos (OOP)**, como **Herança**, **Polimorfismo**, **Encapsulamento** e **Interfaces**.
 
